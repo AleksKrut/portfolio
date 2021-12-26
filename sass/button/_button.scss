@@ -1,0 +1,30 @@
+.button{
+    height: 64px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 64px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: #EFF7FC;
+    border-radius: 50px;
+
+        /* Tablet */
+    @media (max-width: 1199px) {
+        height: 58px;
+
+        line-height: 58px;
+        
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+
+}
+
+.button--bc{
+    background-color: #FBDC4D;
+
+}
+

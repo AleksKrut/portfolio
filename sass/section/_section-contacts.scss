@@ -1,0 +1,140 @@
+.section-contacts {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(0deg, #F5FBFF, #F5FBFF), #F4F8F9;
+
+    @media(max-width:1199px){
+       padding-top: 41px;
+       padding-bottom: 62px;
+    }
+    @media(max-width:1199px){
+       padding-top: 14px;
+      padding-bottom: 33px;
+    }
+}
+
+.section-contacts__info{
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width:599px){
+        flex-direction: column-reverse;
+    }
+}
+
+.section-contacts__title{
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media(max-width:1199px){
+        margin-bottom: 38px;
+    }
+    @media(max-width:899px){
+        margin-bottom: 20px;
+    }
+}
+
+.section-contacts__data{
+    .social-block {
+        margin-bottom: 0;
+        > * + * {
+            @media(max-width:1199px){
+                margin-left: 26px;
+            }
+            @media(max-width:899px){
+                margin-left: 16px;
+            }
+        }
+    }
+}
+
+.info-content {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+
+        & li{
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 1.6;
+            @media(max-width:1199px){
+                font-size: 18px;
+            }
+            @media(max-width:899px){
+                font-size: 16px;
+            }
+        }
+
+        & > * + * {
+            margin-top: 22px;
+
+            @media(max-width:1199px){
+                margin-top: 19px;
+            }
+            @media(max-width:899px){
+                margin-top: 9px;
+            }
+            @media(max-width:599px){
+                margin-top: 6px;
+            }
+        }
+
+        @media(max-width:1199px){
+            margin-bottom: 24px;
+        }
+        @media(max-width:899px){
+            width: 228px;
+        }
+}
+
+
+
+.info-block--email::before{
+    content: "Email";
+    display: inline-block;
+    min-width: 103px;
+}
+
+
+.info-block--tel::before{
+    content: "Телефон";
+    display: inline-block;
+    min-width: 103px;
+}
+
+.info-block--lh{
+    padding-left: 80px;
+    line-height: 1.6;
+
+    @media(max-width:1199px){
+        padding-left: 14px;
+    }
+    @media(max-width:899px){
+        padding-left: 0;
+    }
+}
+
+.section-contacts__text {
+    width: 538px;
+    font-size: 18px;
+    line-height: 1.6;
+
+        @media(max-width:1199px){
+            width: 424px;
+            font-size: 16px;
+        }
+        @media(max-width:899px){
+            width: 290px;
+            font-size: 14px;
+        }
+        @media(max-width:599px){
+           margin-bottom: 20px;
+        }
+}
+
+.section-contacts__icon{
+    position: absolute;
+    top: 72px;
+    right: 164px;
+    opacity: 0.27;
+}

@@ -1,0 +1,25 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+@import "./base/border-buttom";
+
+// Blocks
+@import "./blocks/page";
+@import "./blocks/nav";
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/footer";
+@import "./blocks/nav-icon";
+@import "./blocks/overlay";
+@import "./blocks/social";
+
+//Section   
+@import "./section/section-skill";
+@import "./section/section-portfolio";
+@import "./section/section-hw";
+@import "./section/section-contacts";
+
+
+//Button
+@import "./button/button";

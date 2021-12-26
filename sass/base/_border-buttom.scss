@@ -1,0 +1,35 @@
+.border{
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: center bottom 12px;
+    background-size: 100% 12px;
+    background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+    @media(max-width:899px){
+        background-size: 100% 8px;
+        background-position: center bottom 8px;
+    }
+    @media(max-width:599px){
+        background-size: 100% 5px;
+        background-position: center bottom 8px;
+    }
+    
+}
+.border--size{
+    background-position: center bottom 8px;
+    background-size: 100% 8px;
+    @media(max-width:899px){
+        background-size: 100% 6px;
+        background-position: center bottom 8px;
+    }  
+    @media(max-width:599px){
+        background-size: 100% 5px;
+    }
+}
+
+.border--posi{
+    background-position: center bottom 3px;
+    background-size: 100% 6px;
+    @media(max-width:1199px){
+        background-size: 100% 4px;
+    }
+}
